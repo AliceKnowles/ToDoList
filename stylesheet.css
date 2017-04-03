@@ -1,0 +1,89 @@
+body{
+  background-color: white;
+  font-family: sans-serif;
+}
+
+#commentList{
+  margin-bottom: 60px;
+}
+
+#commentSection{
+  width: 80%;
+  margin:0 auto;
+}
+
+#commentHead{
+  color: #117DBC;
+  font-weight: normal;
+}
+
+#details{
+  width: 100%;
+  margin: 0;
+}
+
+#selectOrder{
+  display: inline-block
+}
+
+.inline{
+  display: inline-block;
+}
+
+.actionButton{
+  background-color: #117DBC;
+  border-radius: 4px;
+  color: white;
+  padding: 5px 12px;
+  margin-top: 15px;
+}
+
+textArea{
+  width: 100%;
+}
+
+.commentContainer{
+  position: relative;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 0px 20px;
+}
+
+.innerComment{
+  padding: 15px 0px;
+}
+
+#title{
+  width: 100%;
+}
+
+.titleText{
+  color: #117DBC;
+  width: 90%;
+}
+
+.wrapText{
+  word-wrap: break-word;
+}
+
+.informativeText{
+  color: grey;
+  font-size: 14px;
+}
+
+.plainButton{
+  border: none;
+  background: none;
+}
+
+.buttonContainer{
+  position: absolute;
+  right: 12px;
+  top: 10px;
+}
+.actionButton:hover{
+  background-color: white;
+  color: #117DBC;
+  cursor: pointer;
+} 
